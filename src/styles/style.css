@@ -17,9 +17,12 @@ body {
     width: 100vw;
     overflow-x: hidden;
     margin: 0px;
-    flex-direction: row;
+    flex-direction: column;
 }
 
+/* main {
+    flex-direction: ;
+} */
 .section-1 {
     display: flex;
     justify-content: center;
@@ -478,7 +481,4 @@ h4 {
 
 .padding100x165 {
     padding: 100px 165px;
-}
-.white {
-    color: var(--white);
 }
