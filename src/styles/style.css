@@ -374,6 +374,8 @@ footer {
     flex-direction: row;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding: 55px;
 }
 
 .footer-p > p {
@@ -381,9 +383,9 @@ footer {
     font-style: normal;
     font-size: 34px;
     line-height: 120%;
-    color: var(--white);
-    padding: 55px 173px 55px 55px; 
+    color: var(--white); 
 }
+
 .footer-p1 {
 
     font-family: 'Open Sans', sans-serif;
@@ -397,16 +399,25 @@ footer {
     line-height: 160%;
     color: var(--white);
 }
+
+.footer-p2 > a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 input {
     color: #757575;
 }
+
  #email {
     width: 423px;
     height: 50px;
-    border: 1px solid #E3E3E3;
-    box-sizing: border-box;
-    padding: 38px 359px 9px 0;
- }
+    border-radius: 0px;
+    border: 0;
+    padding: 17px 122px 18px 15px;
+    color: #757575;
+    font-size: 13.1px;
+}
 
  #submit {
     width: 70px;
@@ -414,6 +425,34 @@ input {
     background: var(--primary);
     color: var(--white);
     padding: 15px 25px 15px 25px;
+    border: 0;
+    position: relative;
+    
+}
+
+#submit::after {
+    position: absolute;
+    content: url("../images/send.svg");
+    width: 20px;
+    height: 20px;
+    /* z-index: 2; */
+}
+
+/* #submit:hover {
+
+} */
+
+.frame {
+    padding-top: 60px;
+}
+
+.frame > p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: black;
 }
 
 
@@ -431,8 +470,10 @@ input {
     --blue: #1085c5;
 }
 
-button:hover {
+button:hover,
+#submit:hover{
     background: #EA7600 !important;
+    cursor: pointer;
 }
 
 button {
@@ -531,4 +572,9 @@ h4 {
 
 .padding100x165 {
     padding: 100px 165px;
+}
+
+.blue-link-text {
+    color:var(--blue);
+    text-decoration: underline;
 }
