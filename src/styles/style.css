@@ -430,17 +430,13 @@ input {
     
 }
 
-#submit::after {
+#submit::before {
     position: absolute;
-    content: url("../images/send.svg");
+    content: "";
+    background: url("../images/send.svg");
     width: 20px;
     height: 20px;
-    /* z-index: 2; */
 }
-
-/* #submit:hover {
-
-} */
 
 .frame {
     padding-top: 60px;
@@ -454,6 +450,12 @@ input {
     text-align: center;
     color: black;
 }
+
+form {
+    display: flex;
+    align-items: center;
+}
+
 
 
 /* STYLES */
