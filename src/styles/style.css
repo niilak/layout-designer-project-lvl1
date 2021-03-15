@@ -362,9 +362,59 @@ footer {
     flex-direction: column;
     position: relative;
     width: 1440px;
-    height: 500px;
+    height: 581px;
+    background: var(--white);
 }
 
+.footer-section{
+    width: 1110px;
+    height: 190px;
+    background: var(--primary-dark);
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-p > p {
+    font-family: 'Neucha', cursive;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 120%;
+    color: var(--white);
+    padding: 55px 173px 55px 55px; 
+}
+.footer-p1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--white);
+}
+.footer-p2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    color: var(--white);
+}
+input {
+    color: #757575;
+}
+ #email {
+    width: 423px;
+    height: 50px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 38px 359px 9px 0;
+ }
+
+ #submit {
+    width: 70px;
+    height: 50px;
+    background: var(--primary);
+    color: var(--white);
+    padding: 15px 25px 15px 25px;
+}
 
 
 /* STYLES */
