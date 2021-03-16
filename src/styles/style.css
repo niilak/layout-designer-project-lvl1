@@ -99,13 +99,14 @@ body {
 .div-2-a > p {
     margin: 0px;
     padding: 30px 0px !important;
+    
 }
 
 .div-2-b-video {
     display: flex;
     justify-content: center;
 
-    margin: 0px;
+    margin: 25px;
  }
 
 /* SECTION-3 */
@@ -584,4 +585,8 @@ h4 {
 .blue-link-text {
     color:var(--blue);
     text-decoration: underline;
+}
+
+.white {
+    color: var(--white);
 }
