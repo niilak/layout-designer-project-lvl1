@@ -65,6 +65,9 @@ body {
   margin: 0px;
   display: flex;
 }
+.section-1-p1 {
+  width: 522px;
+}
 
 .p-and-btn > p {
   padding-bottom: 50px !important;
@@ -475,7 +478,8 @@ button {
   background: var(--primary);
 
   border: none;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 
   width: 148px;
   height: 49px;
