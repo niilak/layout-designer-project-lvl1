@@ -44,7 +44,7 @@ body {
 .section-1::before {
   content: " ";
   position: absolute;
-  top: 14px;
+  top: 20px;
   width: 1440px;
   height: 914px;
   background-image: url("../images/background.png");
