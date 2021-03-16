@@ -124,10 +124,11 @@ body {
 .section-3 {
   display: flex;
   width: 1440px;
-  height: 914px;
+  height: 1014px;
   background: var(--primary-dark);
   margin: 0;
   margin-top: -100px;
+  padding: 100px 0;
 }
 
 #navigation {
