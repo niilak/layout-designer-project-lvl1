@@ -20,9 +20,6 @@ body {
     flex-direction: column;
 }
 
-/* main {
-    flex-direction: ;
-} */
 .section-1 {
     display: flex;
     justify-content: center;
