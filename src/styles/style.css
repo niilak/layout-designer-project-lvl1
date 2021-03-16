@@ -18,7 +18,7 @@ body {
   justify-content: center;
 
   width: 100vw;
-  margin: 0px;
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .div-1-a {
   display: flex;
-  margin: 0px;
+  margin: 0;
   height: 100%;
   width: 100%;
 }
@@ -62,11 +62,8 @@ body {
 }
 
 .div-1-b {
-  margin: 0px;
+  margin: 0;
   display: flex;
-}
-.section-1-p1 {
-  width: 522px;
 }
 
 .p-and-btn > p {
@@ -81,13 +78,13 @@ body {
   height: 914px;
   background: var(--white);
   flex-direction: column;
-  margin: 0px;
+  margin: 0;
 }
 
 .div-2-a {
   display: flex;
   flex-direction: column;
-  margin: 0px;
+  margin: 0;
   padding-top: 100px;
   align-items: center;
 }
@@ -99,8 +96,8 @@ body {
 }
 
 .div-2-a > p {
-  margin: 0px;
-  padding: 30px 0px !important;
+  margin: 0;
+  padding: 30px 0 !important;
 }
 
 .div-2-b-video {
@@ -117,7 +114,7 @@ body {
   width: 1440px;
   height: 914px;
   background: var(--primary-dark);
-  margin: 0px;
+  margin: 0;
 }
 
 #navigation {
@@ -151,7 +148,7 @@ a {
   font-size: 64px;
   font-family: "Neucha", cursive;
   line-height: 1;
-  margin: 0px;
+  margin: 0;
   color: var(--primary-dark);
 }
 
@@ -193,7 +190,7 @@ a {
   position: relative;
   width: 1440px;
   height: 960px;
-  margin: 0px;
+  margin: 0;
   background: var(--light);
 }
 
