@@ -82,6 +82,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding-top: 100px;
+  /* padding-bottom: 16px; */
 }
 
 .div-2-a {
@@ -92,15 +93,13 @@ body {
   align-items: center;
 }
 
-.div-2-a > h1:last-of-type {
-  color: var(--primary);
-  margin: 0;
-  /* padding-bottom: 30px; */
-}
-
 .div-2-a > p {
   margin: 0;
-  padding: 27px 0 30px 0;
+  padding: 27px 0 30px 0 !important;
+}
+
+.div-2-a > h2 {
+  padding: 0 !important;
 }
 
 .div-2-b-video {
@@ -109,7 +108,7 @@ body {
   z-index: 2;
   position: absolute;
   left: 261px;
-  top: 340px;
+  top: 328px;
 }
 
 .banner {
@@ -117,7 +116,7 @@ body {
   height: 100px;
   background: #42413c;
   position: absolute;
-  top: 815px;
+  top: 816px;
 }
 
 /* SECTION-3 */
