@@ -55,8 +55,8 @@ body {
 
 .div-1-a > img {
   position: absolute;
-  top: 55px;
-  right: -170px;
+  top: 48px;
+  right: -110px;
   width: 1082.81px;
   height: 525px;
 }
@@ -581,4 +581,8 @@ h4 {
 
 .white {
   color: var(--white);
+}
+
+.z-index-1 {
+  z-index: 1;
 }
