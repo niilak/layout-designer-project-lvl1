@@ -81,7 +81,7 @@ body {
   background: var(--white);
   flex-direction: column;
   margin: 0;
-  /* padding: 100px 165px; */
+  padding-top: 100px;
 }
 
 .div-2-a {
@@ -106,10 +106,7 @@ body {
 .div-2-b-video {
   display: flex;
   justify-content: center;
-  position: absolute;
-  left: 261px;
-  top: 329px;
-
+  z-index: 2;
   /* margin: 25px; */
 }
 
@@ -117,6 +114,8 @@ body {
   width: 1440px;
   height: 100px;
   background: #42413c;
+  position: absolute;
+  top: 815px;
 }
 
 /* SECTION-3 */
