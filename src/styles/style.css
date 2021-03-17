@@ -164,14 +164,13 @@ h2 {
   margin: 0;
 
   margin-top: -100px;
-
-  padding: 100px 0;
+  padding: 0 100px;
 
   background: var(--primary-dark);
 }
 
 #navigation {
-  display: flex;
+  /* display: flex;
 
   flex-wrap: wrap;
 
@@ -180,24 +179,75 @@ h2 {
 
   margin: 0;
 
-  padding: 100px 0;
+  padding: 100px 0; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  padding-top: 100px;
+  height: 781px;
 }
 
 a {
   text-decoration: none;
 }
 
-.div-cube {
+.cube1 {
   width: 350px;
   height: 323px;
-  margin: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-size: 52px;
+}
+.cube2 {
+  width: 350px;
+  height: 323px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  background: var(--light);
+}
+.cube3 {
+  width: 350px;
+  height: 323px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  background: var(--light);
+}
+.cube4 {
+  width: 350px;
+  height: 348px;
+  background: var(--light);
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.cube5 {
+  width: 350px;
+  height: 348px;
+  background: var(--light);
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.cube6 {
+  width: 350px;
+  height: 348px;
+  background: var(--light);
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
-.div-white {
+.div-cube {
+  height: 100%;
+  height: 100%;
+}
+
+/* .div-white {
   padding: 24px 24px;
 
   background: var(--light);
-}
+} */
 
 .nubers {
   margin: 0;
@@ -245,28 +295,19 @@ h3 {
   text-align: center;
 }
 
-.div-white:hover > .nubers,
-.div-white:hover > p,
-.div-white:hover > h3 {
+a:hover > .nubers,
+a:hover > p,
+a:hover > h3 {
   left: calc(50% - 23px / 2 - 139.5px);
 
   color: var(--white);
 }
 
-.div-white:hover > .nubers {
+a:hover > .nubers {
   padding-bottom: 24px;
 }
 
-.p-div-cube {
-  width: 350px;
-  height: 348px;
-
-  margin: 15px;
-
-  font-size: 52px;
-}
-
-.p-div-cube:first-of-type {
+.cube1:first-of-type {
   color: var(--white);
 }
 
