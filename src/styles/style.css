@@ -159,12 +159,12 @@ h2 {
   display: flex;
 
   width: 1440px;
-  height: 1014px;
+  height: 891;
 
   margin: 0;
 
   margin-top: -100px;
-  padding: 0 100px;
+  padding: 100px 165px;
 
   background: var(--primary-dark);
 }
@@ -186,7 +186,6 @@ h2 {
   justify-content: center;
   margin: 100px 0;
   padding-top: 100px;
-  height: 781px;
 }
 
 a {
@@ -207,6 +206,7 @@ a {
   margin-left: 15px;
   margin-bottom: 10px;
   background: var(--light);
+  padding: 24px 24px;
 }
 .cube3 {
   width: 350px;
@@ -214,6 +214,7 @@ a {
   margin-left: 15px;
   margin-bottom: 10px;
   background: var(--light);
+  padding: 24px 24px;
 }
 .cube4 {
   width: 350px;
@@ -221,6 +222,7 @@ a {
   background: var(--light);
   margin-top: 10px;
   margin-right: 15px;
+  padding: 24px 24px;
 }
 .cube5 {
   width: 350px;
@@ -229,6 +231,7 @@ a {
   margin-top: 10px;
   margin-right: 15px;
   margin-left: 15px;
+  padding: 24px 24px;
 }
 .cube6 {
   width: 350px;
@@ -236,18 +239,17 @@ a {
   background: var(--light);
   margin-top: 10px;
   margin-left: 15px;
-}
-
-.div-cube {
-  height: 100%;
-  height: 100%;
-}
-
-/* .div-white {
   padding: 24px 24px;
+}
 
-  background: var(--light);
+/* .div-cube {
+  height: 100%;
+  height: 100%;
 } */
+
+.div-cube:hover > h3 {
+  color: var(--white);
+}
 
 .nubers {
   margin: 0;
@@ -262,10 +264,7 @@ a {
   line-height: 1;
 }
 
-.div-white:hover {
-  width: 350px;
-  height: 251px;
-
+.cube-hov:hover {
   background-color: var(--primary);
 
   block-size: fit-content;
@@ -295,15 +294,15 @@ h3 {
   text-align: center;
 }
 
-a:hover > .nubers,
-a:hover > p,
-a:hover > h3 {
+.div-cube:hover > .nubers,
+.div-cube:hover > p,
+.div-cube:hover > h3 {
   left: calc(50% - 23px / 2 - 139.5px);
 
   color: var(--white);
 }
 
-a:hover > .nubers {
+.div-cube:hover > .nubers {
   padding-bottom: 24px;
 }
 
