@@ -189,7 +189,7 @@ a {
 
 .div-cube {
   width: 350px;
-  height: 348px;
+  height: 323px;
   margin: 15px;
 }
 
@@ -501,6 +501,7 @@ footer {
   align-items: center;
   justify-content: center;
 
+  padding: 100px 0;
   width: 1440px;
   height: 581px;
 
