@@ -1,5 +1,5 @@
 /** CSS STYLE **/
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 /* font-family: 'Open Sans', sans-serif; */
 
@@ -189,9 +189,22 @@ a {
 }
 
 .div-white {
-  background: var(--light);
-
   padding: 24px 24px;
+
+  background: var(--light);
+}
+
+.nubers {
+  margin: 0;
+
+  padding-bottom: 40px;
+
+  color: var(--primary-dark);
+
+  font-size: 64px;
+  font-family: "Neucha", cursive;
+
+  line-height: 1;
 }
 
 .div-white:hover {
@@ -211,28 +224,15 @@ a {
   color: var(--white);
 }
 
-.nubers {
-  margin: 0;
-
-  padding-bottom: 40px;
-
-  color: var(--primary-dark);
-
-  font-size: 64px;
-  font-family: "Neucha", cursive;
-
-  line-height: 1;
-}
-
 .div-white:hover > .nubers {
   padding-bottom: 24px !important;
 }
 
 .p-div-cube {
-  margin: 15px;
-
   width: 350px;
   height: 348px;
+
+  margin: 15px;
 
   font-size: 52px;
 }
@@ -248,24 +248,33 @@ a {
 .section-6,
 .section-7,
 .section-8 {
-  display: flex;
   position: relative;
+
+  display: flex;
+
   width: 1440px;
   height: 960px;
+
   margin: 0;
+
   background: var(--light);
 }
 
 .section-4::before {
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  content: " ";
-  position: absolute;
+
   background-image: url("../images/background.png");
+
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+
   opacity: 0.1;
+
+  content: " ";
 }
 
 .div-4-a,
@@ -283,6 +292,7 @@ a {
 .div-8-b {
   width: 1110px;
   height: 26px;
+
   background: #b09a81;
 }
 
@@ -294,9 +304,12 @@ a {
 
 .div-4-c {
   display: flex;
+
   flex-direction: row;
-  padding-top: 20px;
+
   justify-content: space-between;
+
+  padding-top: 20px;
 }
 
 /* #SECTION-5 */
@@ -307,15 +320,20 @@ a {
 }
 
 .section-5::before {
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  content: " ";
-  position: absolute;
+
   background-image: url("../images/background.png");
+
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+
   opacity: 0.1;
+
+  content: " ";
 }
 
 .div-5-a {
@@ -352,23 +370,30 @@ a {
 .div-7-b2,
 .div-8-b2 {
   display: flex;
+
   flex-direction: row;
-  padding-top: 24px;
   justify-content: space-between;
+
+  padding-top: 24px;
 }
 
 /* SECTION-6 */
 
 .section-6::before {
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  content: " ";
-  position: absolute;
+
   background-image: url("../images/background.png");
+
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+
   opacity: 0.1;
+
+  content: " ";
 }
 
 .div-6-b1,
@@ -378,35 +403,47 @@ a {
 
   width: 1110px;
   height: 26px;
+
   padding-left: 10px;
 }
 
 /* SECTION-7 */
 
 .section-7::before {
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  content: " ";
-  position: absolute;
+
   background-image: url("../images/background.png");
+
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+
   opacity: 0.1;
+
+  content: " ";
 }
 
 /* SECTION-8 */
 
 .section-8::before {
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  content: " ";
-  position: absolute;
+
   background-image: url("../images/background.png");
+
+  background-position: center;
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+
   opacity: 0.1;
+
+  content: " ";
 }
 
 /* FOOTER */
@@ -622,7 +659,7 @@ h4 {
 }
 
 .kogn-iskazeniya {
-  font-family: Neucha;
+  font-family: "Neucha", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -631,7 +668,7 @@ h4 {
 }
 
 .shadow {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .padding100x165 {
