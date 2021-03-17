@@ -82,7 +82,8 @@ body {
 }
 
 .p-and-btn > p {
-  padding-bottom: 50px !important;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 /* SECTION 2 */
@@ -116,12 +117,16 @@ body {
 }
 
 .div-2-a > p {
-  margin: 0;
-  padding: 27px 0 30px 0 !important;
+  padding: 27px 0 30px 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 60px;
 }
 
 .div-2-a > h2 {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .div-2-b-video {
@@ -216,6 +221,30 @@ a {
   block-size: fit-content;
 }
 
+.footer-p > p {
+  color: var(--white);
+
+  font-size: 34px;
+  font-family: "Neucha", cursive;
+  font-style: normal;
+
+  line-height: 120%;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 34px;
+}
+
+.frame > p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  text-align: center;
+}
+
 .div-white:hover > .nubers,
 .div-white:hover > p,
 .div-white:hover > h3 {
@@ -225,7 +254,7 @@ a {
 }
 
 .div-white:hover > .nubers {
-  padding-bottom: 24px !important;
+  padding-bottom: 24px;
 }
 
 .p-div-cube {
@@ -244,9 +273,7 @@ a {
 /* SECTION 4 (5) */
 
 .section-4,
-.section-5,
 .section-6,
-.section-7,
 .section-8 {
   position: relative;
 
@@ -316,7 +343,16 @@ a {
 
 .section-5,
 .section-7 {
-  background: var(--brown) !important;
+  position: relative;
+
+  display: flex;
+
+  width: 1440px;
+  height: 960px;
+
+  margin: 0;
+
+  background: var(--brown);
 }
 
 .section-5::before {
@@ -357,7 +393,16 @@ a {
   height: 26px;
   padding-left: 10px;
 
-  background-color: var(--white) !important;
+  background-color: var(--white);
+}
+
+h4 {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 17px;
+  text-transform: uppercase;
 }
 
 .div-5-b1 > h4,
@@ -436,9 +481,8 @@ a {
 
   background-image: url("../images/background.png");
 
-  background-position: center;
-
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 
   opacity: 0.1;
@@ -449,47 +493,46 @@ a {
 /* FOOTER */
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
   width: 1440px;
   height: 581px;
+
   background: var(--white);
 }
 
 .footer-section {
-  width: 1110px;
-  height: 190px;
-  background: var(--primary-dark);
   display: flex;
+
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 55px;
-}
 
-.footer-p > p {
-  font-family: "Neucha", cursive;
-  font-style: normal;
-  font-size: 34px;
-  line-height: 120%;
-  color: var(--white);
+  width: 1110px;
+  height: 190px;
+  padding: 55px;
+
+  background: var(--primary-dark);
 }
 
 .footer-p1 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--white);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
 }
 
 .footer-p2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  line-height: 160%;
   color: var(--white);
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
 }
 
 .footer-p2 > a {
@@ -504,42 +547,43 @@ input {
 #email {
   width: 423px;
   height: 50px;
-  border-radius: 0px;
-  border: 0;
   padding: 17px 122px 18px 15px;
+
+  border: 0;
+  border-radius: 0;
+
   color: #757575;
   font-size: 13.1px;
 }
 
 #submit {
+  position: relative;
+
   width: 70px;
   height: 50px;
-  background: var(--primary);
-  color: var(--white);
+
   padding: 15px 25px 15px 25px;
+
   border: 0;
-  position: relative;
+
+  color: var(--white);
+
+  background: var(--primary);
 }
 
 #submit::before {
   position: absolute;
-  content: "";
-  background: url("../images/send.svg");
+
   width: 20px;
   height: 20px;
+
+  background: url("../images/send.svg");
+
+  content: "";
 }
 
 .frame {
   padding-top: 60px;
-}
-
-.frame > p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 160%;
-  text-align: center;
-  color: black;
 }
 
 form {
@@ -562,55 +606,59 @@ form {
 }
 
 button {
+  position: relative;
+  z-index: 2;
+
   display: flex;
+
   align-items: center;
   justify-content: center;
-
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-
-  color: var(--white);
-  background: var(--primary);
-
-  border: none;
-  margin: 0;
-  padding: 0;
 
   width: 148px;
   height: 49px;
 
-  position: relative;
-  z-index: 2;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 16px;
+
+  text-transform: uppercase;
+
+  background: var(--primary);
+
   cursor: pointer;
 }
 
 button:hover,
 #submit:hover {
-  background: #ea7600 !important;
+  background: #ea7600;
   cursor: pointer;
 }
 
 .section-style {
-  padding: 100px 0px;
   max-width: 1110px;
-  align-items: center;
-  display: flex;
-  align-items: flex-end;
+  padding: 100px 0;
+
   color: #2a2626;
 }
 
 .primary-font {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
   color: #2a2626;
+
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 .header-font-style {
+  font-weight: normal;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
-  font-weight: normal;
 }
 
 .orange {
@@ -618,23 +666,12 @@ button:hover,
 }
 
 h1 {
+  font-weight: normal;
   font-size: 72px;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 60px;
-  font-weight: normal;
-  padding-bottom: 30px;
-}
-
-h3 {
-  font-size: 34px;
-  font-weight: normal;
 }
 
 .no-margin {
-  margin: 0px;
+  margin: 0;
 }
 
 .normal-font-style {
@@ -649,22 +686,14 @@ h3 {
   padding-left: 30px;
 }
 
-h4 {
-  color: var(--white);
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-}
-
 .kogn-iskazeniya {
-  font-family: "Neucha", cursive;
-  font-style: normal;
+  color: var(--opacity-dark);
+
   font-weight: normal;
   font-size: 24px;
+  font-family: "Neucha", cursive;
+  font-style: normal;
   line-height: 29px;
-  color: var(--opacity-dark);
 }
 
 .shadow {
@@ -686,4 +715,8 @@ h4 {
 
 .z-index-1 {
   z-index: 1;
+}
+
+.padding-botton-30 {
+  padding-bottom: 30px;
 }
