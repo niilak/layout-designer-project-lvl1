@@ -327,8 +327,20 @@ h3 {
 
 /* SECTION 4 (5) */
 
+.section-6 {
+  position: relative;
+
+  display: flex;
+
+  width: 1440px;
+  height: 880px;
+
+  margin: 0;
+
+  background: var(--light);
+}
+
 .section-4,
-.section-6,
 .section-8 {
   position: relative;
 
@@ -402,7 +414,7 @@ h3 {
   display: flex;
 
   width: 1440px;
-  min-height: 855px;
+  min-height: 960px;
 
   margin: 0;
 
@@ -415,7 +427,7 @@ h3 {
   display: flex;
 
   width: 1440px;
-  min-height: 880px;
+  min-height: 960px;
 
   margin: 0;
 
