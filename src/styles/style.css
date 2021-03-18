@@ -395,18 +395,19 @@ h3 {
 }
 
 /* #SECTION-5 */
-.section-5 {
+
+/* .section-5 {
   margin-bottom: -100px;
-}
+} */
 
 .section-5,
 .section-7 {
   position: relative;
 
   display: flex;
+  height: 855px;
 
   width: 1440px;
-  min-height: 960px;
 
   margin: 0;
 
