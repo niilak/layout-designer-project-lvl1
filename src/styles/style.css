@@ -395,12 +395,20 @@ h3 {
 }
 
 /* #SECTION-5 */
+
 .section-5 {
-  /* margin-bottom: -100px; */
-  /* height: 855px !important ; */
+  position: relative;
+
+  display: flex;
+
+  width: 1440px;
+  min-height: 855px;
+
+  margin: 0;
+
+  background: var(--brown);
 }
 
-.section-5,
 .section-7 {
   position: relative;
 
