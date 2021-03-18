@@ -169,21 +169,16 @@ h2 {
 }
 
 #navigation {
-  align-content: flex-end;
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-end;
   align-items: center; /* kad ovo maknem, pri hoveru se div sakuplja put gore */
   justify-content: center;
-
-  /* height: 693px; */
-
-  /* margin: 100px 0; */
-  padding: 100px 165px;
 
   width: 100%;
   height: 100%;
 
-  /* padding-top: 100px; */
+  padding: 100px 165px;
 }
 
 a {
@@ -256,6 +251,11 @@ a {
   background: var(--light);
 }
 
+h3 {
+  font-weight: normal;
+  font-size: 34px;
+}
+
 .div-cube:hover > h3 {
   color: var(--white);
 }
@@ -289,11 +289,6 @@ a {
   line-height: 120%;
 }
 
-h3 {
-  font-weight: normal;
-  font-size: 34px;
-}
-
 .frame > p {
   /* frame je od footera, tu ga je linter staviJo */
   padding-bottom: 16px;
@@ -307,6 +302,11 @@ h3 {
   line-height: 160%;
 
   text-align: center;
+}
+
+.div-5-b2 > p,
+.div-7-b2 > p {
+  color: var(--white);
 }
 
 .div-cube:hover > .nubers,
@@ -487,11 +487,6 @@ h4 {
 .div-5-b1 > h4,
 .div-7-b1 > h4 {
   color: var(--brown);
-}
-
-.div-5-b2 > p,
-.div-7-b2 > p {
-  color: var(--white);
 }
 
 .div-5-b2,
