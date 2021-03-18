@@ -169,6 +169,7 @@ h2 {
 }
 
 #navigation {
+  align-content: flex-end;
   display: flex;
   flex-wrap: wrap;
   align-items: center; /* kad ovo maknem, pri hoveru se div sakuplja put gore */
