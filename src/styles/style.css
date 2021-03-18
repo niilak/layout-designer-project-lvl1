@@ -395,9 +395,9 @@ h3 {
 }
 
 /* #SECTION-5 */
-.section-5 > .padding100x165 {
-  margin-top: -55px;
-}
+/* .section-5 > .padding100x165 {
+      margin-top: -55px;
+} */
 
 .section-5,
 .section-7 {
