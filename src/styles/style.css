@@ -164,7 +164,6 @@ h2 {
   margin: 0;
 
   margin-top: -100px;
-  padding: 100px 165px;
 
   background: var(--primary-dark);
 }
@@ -175,9 +174,13 @@ h2 {
   align-items: center; /* kad ovo maknem, pri hoveru se div sakuplja put gore */
   justify-content: center;
 
-  height: 693px;
+  /* height: 693px; */
 
-  margin: 100px 0;
+  /* margin: 100px 0; */
+  padding: 100px 165px;
+
+  width: 100%;
+  height: 100%;
 
   /* padding-top: 100px; */
 }
