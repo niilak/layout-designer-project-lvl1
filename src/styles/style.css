@@ -396,6 +396,11 @@ h3 {
 
 /* #SECTION-5 */
 
+/* .section-5 {
+  block-size: fit-content;
+
+} */
+
 .section-5,
 .section-7 {
   position: relative;
@@ -403,7 +408,7 @@ h3 {
   display: flex;
 
   width: 1440px;
-  height: 960px;
+  min-height: 960px;
 
   margin: 0;
 
@@ -709,6 +714,7 @@ button:hover,
   color: #2a2626;
 }
 
+ul > li,
 .primary-font {
   color: #2a2626;
 
