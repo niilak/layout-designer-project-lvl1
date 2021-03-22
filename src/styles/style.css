@@ -260,7 +260,7 @@ h3 {
   color: var(--white);
 }
 
-.nubers {
+.numbers {
   margin: 0;
 
   padding-bottom: 40px;
@@ -276,7 +276,7 @@ h3 {
 .cube-hov:hover {
   background-color: var(--primary);
 
-  block-size: fit-content;
+  /* block-size: fit-content; */
 }
 
 .footer-p > p {
@@ -309,7 +309,7 @@ h3 {
   color: var(--white);
 }
 
-.div-cube:hover > .nubers,
+.div-cube:hover > .numbers,
 .div-cube:hover > p,
 .div-cube:hover > h3 {
   left: calc(50% - 23px / 2 - 139.5px);
@@ -317,9 +317,9 @@ h3 {
   color: var(--white);
 }
 
-.div-cube:hover > .nubers {
+/* .div-cube:hover > .numbers {
   padding-bottom: 24px;
-}
+} */
 
 .cube1:first-of-type {
   color: var(--white);
@@ -706,8 +706,6 @@ form {
   color: var(--white);
 
   font-weight: 700;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
 
   text-transform: uppercase;
 
@@ -731,14 +729,12 @@ button:hover,
 
 ul > li,
 .primary-font {
-  color: #2a2626;
-
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
 }
 
-.header-font-style {
+.main-font-style {
   font-weight: normal;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
@@ -806,4 +802,8 @@ h1 {
 
 iframe {
   border: 0;
+}
+
+.black {
+  color: var(--dark);
 }
