@@ -412,7 +412,7 @@ h3 {
   position: relative;
 
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 
   width: 1440px;
   min-height: 860px;
