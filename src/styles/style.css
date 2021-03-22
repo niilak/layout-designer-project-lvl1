@@ -168,7 +168,7 @@ h2 {
   background: var(--primary-dark);
 }
 
-#navigation {
+.nav-section {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
