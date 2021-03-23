@@ -118,7 +118,8 @@ body {
 
 .div-2-a > p {
   padding: 27px 0 30px 0;
-  align-self: center;
+
+  font: caption;
 }
 
 h2 {
@@ -128,6 +129,8 @@ h2 {
 
 .div-2-a > h2 {
   padding: 0;
+
+  text-align: center;
 }
 
 .div-2-b-video {
