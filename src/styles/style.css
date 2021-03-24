@@ -184,11 +184,12 @@ h2 {
 
 .nav-section {
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  align-items: center; /* kad ovo maknem, pri hoveru se div sakuplja put gore */
-  justify-content: center;
 
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: baseline;
+  justify-content: space-around;
   width: 100%;
   height: 100%;
 
@@ -199,28 +200,49 @@ a {
   text-decoration: none;
 }
 
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+
+  /* align-items: center; */
+  width: 100%;
+  padding-top: 84px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+
+  /* align-items: center; */
+  width: 100%;
+}
+
 .cube1 {
   width: 350px;
   height: 323px;
-  margin-right: 15px;
-  margin-bottom: 10px;
+
+  /* margin-right: 15px;
+  margin-bottom: 10px; */
 
   font-size: 52px;
+
+  /* border: var(--white) 2px solid; */
 }
 
-.cube2 {
+.cube2-3 {
   width: 350px;
   height: 323px;
-  margin-right: 15px;
+
+  /* margin-right: 15px;
   margin-bottom: 10px;
-  margin-left: 15px;
+  margin-left: 15px; */
 
   padding: 24px 24px;
 
   background: var(--light);
 }
 
-.cube3 {
+/* .cube3 {
   width: 350px;
   height: 323px;
   margin-bottom: 10px;
@@ -229,20 +251,21 @@ a {
   padding: 24px 24px;
 
   background: var(--light);
-}
+} */
 
-.cube4 {
+.cube4-5-6 {
   width: 350px;
   height: 348px;
-  margin-top: 10px;
-  margin-right: 15px;
+
+  /* margin-top: 10px;
+  margin-right: 15px; */
 
   padding: 24px 24px;
 
   background: var(--light);
 }
 
-.cube5 {
+/* .cube5 {
   width: 350px;
   height: 348px;
   margin-top: 10px;
@@ -263,7 +286,7 @@ a {
   padding: 24px 24px;
 
   background: var(--light);
-}
+} */
 
 h3 {
   font-weight: normal;
