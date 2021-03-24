@@ -51,8 +51,6 @@ body {
 .section-1::before {
   position: absolute;
 
-  /* top: -12px; */
-
   width: 100%;
   height: 100%;
 
@@ -110,8 +108,6 @@ body {
   padding-top: 100px;
 
   background: var(--white);
-
-  /* padding-bottom: 16px; */
 }
 
 .div-2-a {
@@ -120,8 +116,6 @@ body {
   align-items: center;
 
   margin: 0;
-
-  /* padding-top: 100px; */
 }
 
 .div-2-a > p {
@@ -142,11 +136,6 @@ h2 {
 }
 
 .div-2-b-video {
-  /* position: absolute;
-
-  top: 328px;
-  left: 261px; */
-
   z-index: 2;
 
   display: flex;
@@ -204,7 +193,6 @@ a {
   display: flex;
   justify-content: space-evenly;
 
-  /* align-items: center; */
   width: 100%;
   padding-top: 84px;
 }
@@ -221,72 +209,26 @@ a {
   width: 350px;
   height: 323px;
 
-  /* margin-right: 15px;
-  margin-bottom: 10px; */
-
   font-size: 52px;
-
-  /* border: var(--white) 2px solid; */
 }
 
 .cube2-3 {
   width: 350px;
   height: 323px;
 
-  /* margin-right: 15px;
-  margin-bottom: 10px;
-  margin-left: 15px; */
-
   padding: 24px 24px;
 
   background: var(--light);
 }
-
-/* .cube3 {
-  width: 350px;
-  height: 323px;
-  margin-bottom: 10px;
-  margin-left: 15px;
-
-  padding: 24px 24px;
-
-  background: var(--light);
-} */
 
 .cube4-5-6 {
   width: 350px;
   height: 348px;
 
-  /* margin-top: 10px;
-  margin-right: 15px; */
-
   padding: 24px 24px;
 
   background: var(--light);
 }
-
-/* .cube5 {
-  width: 350px;
-  height: 348px;
-  margin-top: 10px;
-  margin-right: 15px;
-  margin-left: 15px;
-
-  padding: 24px 24px;
-
-  background: var(--light);
-}
-
-.cube6 {
-  width: 350px;
-  height: 348px;
-  margin-top: 10px;
-  margin-left: 15px;
-
-  padding: 24px 24px;
-
-  background: var(--light);
-} */
 
 h3 {
   font-weight: normal;
@@ -312,8 +254,6 @@ h3 {
 
 .cube-hov:hover {
   background-color: var(--primary);
-
-  /* block-size: fit-content; */
 }
 
 .footer-p > p {
@@ -327,7 +267,6 @@ h3 {
 }
 
 .frame > p {
-  /* frame je od footera, tu ga je linter staviJo */
   padding-bottom: 16px;
 
   color: black;
@@ -636,14 +575,12 @@ footer {
 }
 
 .footer-p1 {
-  color: var(--white);
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   line-height: 160%;
 }
 
 .footer-p2 {
-  color: var(--white);
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
   line-height: 160%;
