@@ -150,8 +150,6 @@ h2 {
   display: flex;
 
   justify-content: center;
-
-  /* padding-top: 5px; */
 }
 
 .banner {
@@ -787,4 +785,8 @@ iframe {
 
 .black {
   color: var(--dark);
+}
+
+.p-top-100px {
+  padding-top: 100px;
 }
