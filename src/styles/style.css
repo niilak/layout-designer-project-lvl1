@@ -17,13 +17,13 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 .section-1 {
-  /* position: relative; */
+  position: relative;
 
   display: flex;
 
@@ -40,7 +40,7 @@ body {
 }
 
 .div-1-a {
-  position: relative;
+  /* position: relative; */
 
   display: flex;
 
