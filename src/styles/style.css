@@ -88,6 +88,15 @@ body {
   padding-top: 100px;
 }
 
+.more {
+  width: 148px;
+  height: 49px;
+
+  margin-top: 40px;
+
+  background-color: #ea7600;
+}
+
 /* SECTION 2 */
 
 .section-2 {
@@ -115,7 +124,6 @@ body {
 }
 
 h2 {
-  font-weight: normal;
   font-size: 60px;
 }
 
@@ -171,16 +179,11 @@ h2 {
   height: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .nav1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-  width: 100%;
   padding-top: 84px;
 }
 
@@ -213,7 +216,6 @@ a {
 }
 
 h3 {
-  font-weight: normal;
   font-size: 34px;
 }
 
@@ -250,8 +252,6 @@ h3 {
 
 .frame > p {
   padding-bottom: 16px;
-
-  color: black;
 
   font-weight: normal;
   font-size: 14px;
@@ -391,7 +391,6 @@ h3 {
 }
 
 h4 {
-  color: var(--white);
   font-weight: bold;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -534,10 +533,6 @@ footer {
   text-decoration: underline;
 }
 
-input {
-  color: #757575;
-}
-
 #email {
   width: 423px;
   height: 50px;
@@ -610,22 +605,12 @@ form {
 }
 
 .button {
-  position: relative;
   z-index: 2;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
-
-  width: 148px;
-  height: 49px;
-
-  margin-top: 40px;
-
-  border: none;
-
-  background: var(--primary);
 }
 
 .btn-font-style {
@@ -675,8 +660,6 @@ h1 {
 }
 
 .kogn-iskazeniya {
-  color: var(--opacity-dark);
-
   font-weight: normal;
   font-size: 24px;
   font-family: "Neucha", cursive;
@@ -713,10 +696,18 @@ iframe {
   color: var(--white);
 }
 
+.opacity-dark-clr {
+  color: var(--opacity-dark);
+}
+
 .orange {
   color: var(--primary);
 }
 
 .p-top-100px {
   padding-top: 100px;
+}
+
+.text-decor-none {
+  text-decoration: none;
 }
