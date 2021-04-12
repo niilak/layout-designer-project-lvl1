@@ -182,8 +182,6 @@ h2 {
 
   justify-content: center;
 
-  /* padding-bottom: 100px; */
-
   height: 100%;
 }
 
@@ -192,9 +190,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  /* padding-top: 84px; */
-  margin-top: 184px;
-  padding-bottom: 100px;
+  margin-top: 84px;
 }
 
 .cube1 {
@@ -288,7 +284,7 @@ h3 {
 
 .section-4,
 .section-8 {
-  height: 960px;
+  /* height: 960px; */
 
   background: var(--light);
 }
@@ -718,4 +714,8 @@ iframe {
 
 .text-decor-none {
   text-decoration: none;
+}
+
+.p-bottom-100px {
+  padding-bottom: 100px;
 }
