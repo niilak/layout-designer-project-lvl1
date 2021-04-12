@@ -117,7 +117,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 100px;
+  padding-top: 116px;
 }
 
 .div-2-a > p {
@@ -152,7 +152,7 @@ h2 {
   top: 815px;
 
   width: 100%;
-  height: 110px;
+  height: 100px;
 
   background: #42413c;
 }
