@@ -69,7 +69,7 @@ body {
   display: flex;
 
   align-items: baseline;
-  padding-top: 185px;
+  padding-top: 85px;
   padding-bottom: 100px;
 }
 
@@ -163,9 +163,12 @@ h2 {
   justify-content: center;
 
   width: 100%;
+
   /* height: 991px; */
 
   margin: 0;
+
+  margin-top: -100px;
 
   background: var(--primary-dark);
 }
@@ -176,8 +179,8 @@ h2 {
   flex-direction: column;
 
   justify-content: center;
-  margin-top: 100px;
-  padding-bottom: 100px;
+
+  /* padding-bottom: 100px; */
 
   height: 100%;
 }
@@ -186,6 +189,10 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  /* padding-top: 84px; */
+  margin-top: 184px;
+  padding-bottom: 100px;
 }
 
 .cube1 {
