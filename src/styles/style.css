@@ -107,7 +107,7 @@ body {
 .section-2 {
   flex-direction: column;
 
-  height: 914px;
+  /* height: 914px; */
 
   background: var(--white);
 }
