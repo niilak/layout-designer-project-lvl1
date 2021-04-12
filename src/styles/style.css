@@ -314,7 +314,7 @@ h3 {
   background: var(--brown);
 }
 
-.div-5-b1 {
+/* .div-5-b1 {
   display: flex;
   align-items: center;
 
@@ -323,7 +323,7 @@ h3 {
   padding-left: 10px;
 
   background-color: var(--white);
-}
+} */
 
 .section-5::before {
   position: absolute;
