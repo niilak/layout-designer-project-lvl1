@@ -256,6 +256,8 @@ h3 {
 
 .section-4,
 .section-8 {
+  height: 991px;
+
   background: var(--light);
 }
 
@@ -649,6 +651,6 @@ iframe {
   width: 350px;
 }
 
-.padding-140 {
+/* .padding-140 {
   padding: 140px 0;
-}
+} */
