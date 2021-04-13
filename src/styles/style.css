@@ -38,7 +38,7 @@ body {
   height: 100%;
 }
 
-/* .section-1::before {
+.header-section::before {
   position: absolute;
 
   width: 100%;
@@ -52,7 +52,7 @@ body {
   opacity: 0.1;
 
   content: " ";
-} */
+}
 
 .div-1-a > img {
   position: absolute;
@@ -95,10 +95,6 @@ body {
 }
 
 /* SECTION 2 */
-
-.section-2 {
-  flex-direction: column;
-}
 
 .div-2-a {
   display: flex;
@@ -639,4 +635,8 @@ iframe {
 
 .font-size12 {
   font-size: 12px;
+}
+
+.flex-dir-column {
+  flex-direction: column;
 }
