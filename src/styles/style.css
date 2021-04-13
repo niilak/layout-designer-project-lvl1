@@ -83,17 +83,11 @@ body {
   width: 50%;
 }
 
-.p-and-btn > p {
-  padding-top: 100px;
-}
-
 .more {
   width: 148px;
   height: 49px;
 
   margin-top: 40px;
-
-  background-color: var(--primary);
 }
 
 .more:hover {
@@ -104,8 +98,6 @@ body {
 
 .section-2 {
   flex-direction: column;
-
-  /* height: 914px; */
 }
 
 .div-2-a {
@@ -160,7 +152,7 @@ h2 {
 
   margin-top: -100px;
 
-  padding: 122px 0;
+  padding: 100px 0;
 }
 
 .nav-section {
@@ -188,7 +180,7 @@ h2 {
 }
 
 .cube-other {
-  padding: 24px 24px;
+  padding: 24px;
 
   background: var(--light);
 }
@@ -598,6 +590,10 @@ iframe {
 
 .brown {
   color: var(--brown);
+}
+
+.primary-background {
+  background-color: var(--primary);
 }
 
 .brown-background {
