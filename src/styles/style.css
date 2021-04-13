@@ -152,7 +152,7 @@ h2 {
 
   margin-top: -100px;
 
-  padding: 100px 0;
+  padding: 122px 0;
 }
 
 .nav-section {
@@ -197,8 +197,6 @@ h3 {
   margin: 0;
 
   padding-bottom: 40px;
-
-  color: var(--primary-dark);
 
   font-size: 64px;
   font-family: "Neucha", cursive;
@@ -401,20 +399,6 @@ footer {
 
   width: 1110px;
   padding: 55px;
-
-  background: var(--primary-dark);
-}
-
-.footer-p1 {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 160%;
-}
-
-.footer-p2 {
-  font-size: 12px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 160%;
 }
 
 .footer-p2 > a {
@@ -608,6 +592,10 @@ iframe {
   background: var(--primary-dark);
 }
 
+.primary-dark {
+  color: var(--primary-dark);
+}
+
 .light-bkgr {
   background: var(--light);
 }
@@ -638,4 +626,20 @@ iframe {
 
 .min-height-860 {
   min-height: 860px;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.line-height-160 {
+  line-height: 160%;
+}
+
+.font-size18 {
+  font-size: 18px;
+}
+
+.font-size12 {
+  font-size: 12px;
 }
