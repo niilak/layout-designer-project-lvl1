@@ -38,7 +38,7 @@ body {
   height: 100%;
 }
 
-.section-1::before {
+/* .section-1::before {
   position: absolute;
 
   width: 100%;
@@ -52,7 +52,7 @@ body {
   opacity: 0.1;
 
   content: " ";
-}
+} */
 
 .div-1-a > img {
   position: absolute;
@@ -201,7 +201,7 @@ h3 {
   font-size: 64px;
   font-family: "Neucha", cursive;
 
-  /* line-height: 1; */
+  line-height: 1;
 }
 
 .cube-other:hover {
@@ -235,7 +235,7 @@ h3 {
   color: var(--white);
 }
 
-.section-4::before {
+/* .section-4::before {
   position: absolute;
 
   width: 100%;
@@ -250,7 +250,7 @@ h3 {
   opacity: 0.1;
 
   content: " ";
-}
+} */
 
 .div-a {
   display: flex;
@@ -258,7 +258,7 @@ h3 {
   padding-bottom: 100px;
 }
 
-.section-5::before {
+/* .section-5::before {
   position: absolute;
 
   width: 100%;
@@ -273,7 +273,7 @@ h3 {
   opacity: 0.1;
 
   content: " ";
-}
+} */
 
 .div-b1 {
   display: flex;
@@ -303,7 +303,7 @@ h4 {
 
 /* SECTION-6 */
 
-.section-6::before {
+/* .section-6::before {
   position: absolute;
 
   width: 100%;
@@ -318,11 +318,11 @@ h4 {
   opacity: 0.1;
 
   content: " ";
-}
+} */
 
 /* SECTION-7 */
 
-.section-7::before {
+/* .section-7::before {
   position: absolute;
 
   width: 100%;
@@ -337,11 +337,11 @@ h4 {
   opacity: 0.1;
 
   content: " ";
-}
+} */
 
 /* SECTION-8 */
 
-.section-8::before {
+.background-before::before {
   position: absolute;
 
   width: 100%;
@@ -357,6 +357,23 @@ h4 {
 
   content: " ";
 }
+
+/* .section-8::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../images/background.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: " ";
+} */
 
 /* FOOTER */
 
