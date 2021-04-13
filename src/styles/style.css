@@ -256,7 +256,7 @@ h3 {
 
 .section-4,
 .section-8 {
-  height: 960px;
+  padding: 122px 0;
 
   background: var(--light);
 }
