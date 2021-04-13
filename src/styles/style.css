@@ -201,7 +201,7 @@ h3 {
   font-size: 64px;
   font-family: "Neucha", cursive;
 
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .cube-other:hover {
@@ -209,8 +209,6 @@ h3 {
 }
 
 .footer-p > p {
-  color: var(--white);
-
   font-size: 34px;
   font-family: "Neucha", cursive;
   font-style: normal;
@@ -221,7 +219,6 @@ h3 {
 .frame > p {
   padding-bottom: 16px;
 
-  font-weight: normal;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 
@@ -237,18 +234,6 @@ h3 {
 
   color: var(--white);
 }
-
-/* .section-6 {
-  height: 880px;
-
-  background: var(--light);
-}
-
-.section-4,
-.section-8 {
-  height: 960px;
-  background: var(--light);
-} */
 
 .section-4::before {
   position: absolute;
@@ -386,8 +371,6 @@ footer {
   width: 100%;
 
   padding: 100px 0;
-
-  background: var(--white);
 }
 
 .footer-section {
