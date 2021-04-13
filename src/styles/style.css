@@ -415,6 +415,7 @@ footer {
   border-radius: 0;
 
   color: #757575;
+
   font-size: 13.1px;
 }
 
@@ -427,10 +428,6 @@ footer {
   padding: 15px 25px 15px 25px;
 
   border: 0;
-
-  color: var(--white);
-
-  background: var(--primary);
 }
 
 .submit::before {
