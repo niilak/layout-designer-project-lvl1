@@ -256,8 +256,6 @@ h3 {
 
 .section-4,
 .section-8 {
-  padding: 122px 0;
-
   background: var(--light);
 }
 
@@ -649,4 +647,8 @@ iframe {
 
 .width-cube350 {
   width: 350px;
+}
+
+.padding-140 {
+  padding: 140px 0;
 }
