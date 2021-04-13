@@ -38,7 +38,7 @@ body {
   height: 100%;
 }
 
-/* .section-1::before {
+.section-1::before {
   position: absolute;
 
   width: 100%;
@@ -52,7 +52,7 @@ body {
   opacity: 0.1;
 
   content: " ";
-} */
+}
 
 .div-1-a > img {
   position: absolute;
