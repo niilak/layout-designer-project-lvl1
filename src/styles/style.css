@@ -302,12 +302,9 @@ footer {
 .email {
   width: 423px;
   height: 50px;
-  padding: 17px 122px 18px 15px;
-
+  padding-left: 15px;
   border: 0;
   border-radius: 0;
-
-  color: #757575;
 
   font-size: 13.1px;
 }
@@ -491,6 +488,10 @@ iframe {
 
 .light-bkgr {
   background: var(--light);
+}
+
+.gray-color-email {
+  color: #757575;
 }
 
 .p-top-100px {
