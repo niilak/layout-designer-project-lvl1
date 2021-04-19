@@ -221,13 +221,13 @@ h3 {
   color: var(--white);
 }
 
-.div-a {
+.hero-section {
   display: flex;
   flex-direction: row;
   padding-bottom: 100px;
 }
 
-.div-b1 {
+.header-of-title {
   display: flex;
   align-items: center;
 
@@ -244,7 +244,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.div-b2 {
+.title-div {
   display: flex;
 
   flex-direction: row;
@@ -290,7 +290,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-  width: 1110px;
+  width: 73%;
   padding: 55px;
 }
 
