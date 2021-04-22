@@ -507,9 +507,9 @@ iframe {
   padding: 100px 0;
 }
 
-.min-height-860 {
+/* .min-height-860 {
   min-height: 860px;
-}
+} */
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
