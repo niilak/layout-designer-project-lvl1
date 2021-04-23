@@ -71,14 +71,6 @@ body {
   padding-bottom: 100px;
 }
 
-/* .p-and-btn {
-  position: relative;
-
-  z-index: 2;
-
-  width: 50%;
-} */
-
 .more {
   width: 148px;
   height: 49px;
@@ -340,8 +332,6 @@ form {
   align-items: center;
 }
 
-/* STYLES */
-
 :root {
   --white: #fff;
   --opacity-white: #d7ccc0;
@@ -439,7 +429,7 @@ iframe {
   border: 0;
 }
 
-.flex-der-column {
+.flex-dir-column {
   flex-direction: column;
 }
 
@@ -475,7 +465,7 @@ iframe {
   background-color: var(--white);
 }
 
-.primary-dark-bkgr {
+.primary-dark-bg {
   background: var(--primary-dark);
 }
 
@@ -483,7 +473,7 @@ iframe {
   color: var(--primary-dark);
 }
 
-.light-bkgr {
+.light-bg {
   background: var(--light);
 }
 
