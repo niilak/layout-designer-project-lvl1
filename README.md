@@ -20,4 +20,6 @@ $ make install
 make lint
 ```
 
-Surge link:(http://nila-kuzmina.surge.sh/)
+## Surge link
+
+http://nila-kuzmina.surge.sh/
