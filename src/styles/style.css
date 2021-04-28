@@ -1,5 +1,5 @@
 /** CSS STYLE **/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 /* font-family: 'Open Sans', sans-serif; */
 
@@ -231,7 +231,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   line-height: 17px;
