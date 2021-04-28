@@ -18,11 +18,12 @@ body {
 }
 
 .container {
+  z-index: 2;
+
   width: 100%;
 
   max-width: 1110px;
   margin: 0 auto;
-  z-index: 2;
 }
 
 .main-section {
@@ -230,21 +231,18 @@ h3 {
 }
 
 h4 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   line-height: 17px;
   text-transform: uppercase;
 }
 
-.title-div {
+/* .title-div {
   display: flex;
 
-  flex-direction: row;
-  justify-content: space-between;
-
   padding-top: 24px;
-}
+} */
 
 .background-before::before {
   position: absolute;
@@ -484,6 +482,14 @@ iframe {
 
 .p-top-100px {
   padding-top: 100px;
+}
+
+.p-top24 {
+  padding-top: 24px;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .text-decor-none {
