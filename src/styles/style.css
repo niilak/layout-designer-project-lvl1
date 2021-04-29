@@ -58,6 +58,7 @@ body {
 
 .main-sect-top > img {
   position: absolute;
+  z-index: -1;
   top: 48px;
   right: -106px;
 
