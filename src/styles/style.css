@@ -197,7 +197,8 @@ h3 {
 }
 
 .frame > p {
-  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
 
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -397,7 +398,7 @@ h1 {
   width: 50%;
 }
 
-.p-left-30px {
+.p-left30 {
   padding-left: 30px;
 }
 
@@ -480,7 +481,7 @@ iframe {
   color: #757575;
 }
 
-.p-top-100px {
+.p-top-100 {
   padding-top: 100px;
 }
 
@@ -496,7 +497,7 @@ iframe {
   text-decoration: none;
 }
 
-.width-350px {
+.width-350 {
   width: 350px;
 }
 
