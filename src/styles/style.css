@@ -415,11 +415,6 @@ h1 {
   text-decoration: underline;
 }
 
-.z-index-2 {
-  position: relative;
-  z-index: 2;
-}
-
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
@@ -498,6 +493,10 @@ iframe {
 
 .width-350 {
   width: 350px;
+}
+
+.width-55proc {
+  width: 55%;
 }
 
 .padding-100 {
