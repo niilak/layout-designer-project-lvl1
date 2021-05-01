@@ -459,7 +459,7 @@ iframe {
   background: var(--light);
 }
 
-.gray-color {
+.gray {
   color: #757575;
 }
 
@@ -495,7 +495,7 @@ iframe {
   font-family: "Open Sans", sans-serif;
 }
 
-.line-height-160 {
+.line-height160 {
   line-height: 160%;
 }
 
