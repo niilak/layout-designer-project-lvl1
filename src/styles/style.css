@@ -76,16 +76,22 @@ body {
   padding-bottom: 100px;
 }
 
-.more {
+.button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
   width: 148px;
   height: 49px;
 
   margin-top: 40px;
 }
 
-.more:hover {
+/*
+.btn-style:hover {
   background-color: #ea7600;
-}
+} */
 
 .video-section {
   display: flex;
@@ -156,13 +162,14 @@ h2 {
   padding-top: 84px;
 }
 
+/*
 .cube-first {
   width: 350px;
 
   font-size: 52px;
-}
+} */
 
-.cube-other {
+.cube {
   padding: 24px;
 
   background: var(--light);
@@ -172,7 +179,7 @@ h3 {
   font-size: 34px;
 }
 
-.cube-other:hover > h3 {
+.cube:hover > h3 {
   color: var(--white);
 }
 
@@ -187,11 +194,11 @@ h3 {
   line-height: 1;
 }
 
-.cube-other:hover {
+.cube:hover {
   background-color: var(--primary);
 }
 
-.footer-p > p {
+.footer-p-style {
   font-size: 34px;
   font-family: "Neucha", cursive;
   font-style: normal;
@@ -210,9 +217,9 @@ h3 {
   text-align: center;
 }
 
-.cube-other:hover > .numbers,
-.cube-other:hover > p,
-.cube-other:hover > h3 {
+.cube:hover > .numbers,
+.cube:hover > p,
+.cube:hover > h3 {
   left: calc(50% - 23px / 2 - 139.5px);
 
   color: var(--white);
@@ -288,11 +295,6 @@ footer {
   padding: 55px;
 }
 
-.footer-p2 > a {
-  color: var(--white);
-  text-decoration: underline;
-}
-
 .email {
   width: 423px;
   height: 50px;
@@ -303,8 +305,13 @@ footer {
   font-size: 13.1px;
 }
 
-.submit {
+.submit-btn {
   position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 
   width: 70px;
   height: 50px;
@@ -314,7 +321,7 @@ footer {
   border: 0;
 }
 
-.submit::before {
+.submit-btn::before {
   position: absolute;
 
   width: 23px;
@@ -356,21 +363,14 @@ form {
   margin: 0;
 }
 
-.button {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
 .btn-font-style {
   font-weight: 700;
 
   text-transform: uppercase;
 }
 
-button:hover,
-.submit:hover {
+.button:hover,
+.submit-btn:hover {
   background: #ea7600;
   cursor: pointer;
 }
@@ -396,7 +396,7 @@ h1 {
   margin: 0;
 }
 
-.width-50procent {
+.width-50 {
   width: 50%;
 }
 
@@ -413,9 +413,8 @@ h1 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.blue-link-text {
+.blue {
   color: var(--blue);
-  text-decoration: underline;
 }
 
 .padding-bottom-30 {
@@ -498,6 +497,10 @@ iframe {
   text-decoration: none;
 }
 
+.text-decor-underline {
+  text-decoration: underline;
+}
+
 .width-350 {
   width: 350px;
 }
@@ -528,6 +531,10 @@ iframe {
 
 .font-size12 {
   font-size: 12px;
+}
+
+.font-size52 {
+  font-size: 52px;
 }
 
 .m-bottom-20 {
